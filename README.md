@@ -77,6 +77,8 @@ app.use((req, res) => {
                 <Provider store = {store} >
                   <RouterContext {...renderProps}/>
                 </Provider>
+                
+                
             );
 
             const finalState = store.getState();
